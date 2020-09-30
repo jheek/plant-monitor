@@ -98,9 +98,9 @@ startDatabaseQueries();
  * Visualisation 
  */
 function drawDonuts(data) {
-    const donutDims = {width: 360, height: 360, radius: 180, hole: 75}
+    const donutDims = {width: 180, height: 180, radius: 90, hole: 20}
 
-    const svgDonut = d3.select('#donut')
+    const svgDonut = d3.select('#donut-water')
         .append('svg')
         .attr('width', donutDims.width)
         .attr('height', donutDims.height)
